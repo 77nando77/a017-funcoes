@@ -3,19 +3,19 @@
 // Em seguida, peça para o usuário inserir dois números e chame essas 4 funções com esses valores inputados pelo usuário sendo o argumento. Por fim, imprima no console o resultado das operações
 
 const soma = (num1,num2)=>{
-    resp = num1 + num2
+    let resp = num1 + num2
     return resp
 }
 const sub = (num1,num2)=>{
-    resp = num1 - num2
+    let resp = num1 - num2
     return resp
 }
 const mult = (num1,num2)=>{
-    resp = num1 * num2
+    let resp = num1 * num2
     return resp
 }
 const div = (num1,num2)=>{
-    resp = num1 / num2
+    let resp = num1 / num2
     return resp
 }
 let numero1= Number(prompt("Digite um valor qualquer:"))
