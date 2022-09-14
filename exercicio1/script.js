@@ -24,7 +24,7 @@ const nome = (nome) =>`Olá, ${nome}`
 console.log(nome("Luiz"))
 
 const tabuada = (num) => {
-    for(i = 0; i <= 10; i++){
+    for(let i = 0; i <= 10; i++){
         const resp = i*num
         console.log(`${i} x ${num} = ${resp}`)  
     }
