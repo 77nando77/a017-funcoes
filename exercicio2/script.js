@@ -21,7 +21,7 @@ const vOuF =(num1,num2) => {
     resp = num1 >= num2
     return resp
 }
-console.log(`Primeiro número é maior e diferente que o segundo?: ${vOuF(Number(prompt("Digite um número")),Number(prompt("Digite outro número")))}`);
+console.log(`Primeiro número é maior ou igual que o segundo?: ${vOuF(Number(prompt("Digite um número")),Number(prompt("Digite outro número")))}`);
 
 const par = (num) =>{
     if (num%2 ===0){
